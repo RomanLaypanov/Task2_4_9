@@ -13,6 +13,9 @@ public class Institute {
     }
 
     public static class JavaStudent extends Student {
+        public JavaStudent(){
+            super("Прохожу курс по Java.");
+        }
         public void study() {
             super.study();
         }
